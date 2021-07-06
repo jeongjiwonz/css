@@ -1,0 +1,25 @@
+/* 어떤 스타일 내용에 대한 설명 */
+/*
+html{
+	background-color:blue;
+}
+*/
+/*태그로 선택*/div {
+	width : 200px;
+	height : 200px;
+	background: orange;
+	border:3px solid blue;
+}
+
+/*클래스 선택자 . */.div1 {
+	width :200px;
+	height:200px;
+	background:pink;
+}
+
+/*아이디 선택자 # */#div2{
+	width:200px;
+	height:200px;
+	background:red;
+	
+}
