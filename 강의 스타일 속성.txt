@@ -231,4 +231,4 @@ background
 	background: 색상 이미지 반복 위치
 			(색상, 이미지는 둘다 나와도 되고, 둘중에 하나만 있어도 된다)
 	background:#d5d5d5 url("img/logo.png") no-repeat center center
-한번에 표현 가능
+	한번에 표현 가능

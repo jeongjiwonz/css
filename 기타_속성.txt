@@ -75,3 +75,21 @@ nth-child(수식)
 
 3n+3
 	-> 3, 6, 9, 12 
+	
+opacity
+	- 투명도 (0 ~ 1)
+		0에 가까울 수록 투명
+		1에 가까울 수록 불투명
+		
+box-shadow
+	-요소에 그림자 효과
+	좌에서 우 ㅣ 위에서 아래 ㅣ 번짐 정도 ㅣ 색상
+	
+	box-shadow:0px 2px 4px #000000;
+	
+word-break :
+	- break-all
+		텍스트 자동 줄 개행
+		
+background-size
+		-cover : 배경 이미지 영역 자동 맞춤
