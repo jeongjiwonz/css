@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/*---------------------------------공통 적용-------------------------*/
+*{
+	box-sizing:border-box;
+	color : #000000;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body{
+	font-size: 14px;
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+main text:hober{
+	cursor:pointer;
+}
+
+/*-----------------------header-------------------------------*/
+
+.top{
+	height:115px;
+}
+
+.banner_top{
+	background: #fff;
+    border-bottom: 1px solid #b3b3b3;
+	position: relative;
+    top: 0;	
+    padding: 0 15px 0 15px;
+	height:112px;
+}
+.site_top{
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	padding:10px 10px 0 10px;
+}
+
+.site_top .logo{
+    width: 80px;
+	position:relative;
+	top:25px;
+	left:12px;
+}
+
+
+.site_top .logo img{
+	width:70px;
+	height:56px;
+	
+}
+
+.site_top .menu{
+	border-left: 0;
+    border-right: 0;
+     margin: 0; 
+    padding: 0 16px;
+	position:absolute;
+	right:18px;
+	top:5px;
+}
+	
+	
+}
+.site_top .menu:after{
+	clear:left;
+	content:'';
+	display:block;
+} 
+.site_top .menu li{
+	float:left;
+	margin:0 10px;
+	right:0;
+}
+
+a{
+	text-decoration:none;
+	display:inline;	
+}
+
+li a{
+	color:grey;
+	font-size:14.5px;
+}
+li{
+	list-style:none;
+	height:112px;
+	font-weight:100;
+	line-height:112px;
+	word-spacing:1.5px;
+	letter-spacing:1.5px;
+}
+
+li a span{
+	font-size:13.5px;
+	font-weight:400;
+}
+
+.menu li:hover{
+	border-bottom:5px solid #821529;
+	cursor:pointer;
+	color:green;
+}
+
+/*---------------------------------nav swiper------------------------------*/
+
+.mainimg .swiper-slide{
+	width:100%;
+	height:850px;
+	display:block;
+}
+
+.mainimg .swiper-slide>img{
+	width:100%;
+	height:850px;
+}
+
+/*-----------------------section1 ------------------------------*/
+
+
+/* 사이에 공백 넣어야 하는 이유*/
+.section1 .escalade{
+	margin:30px 0;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:400;
+	letter-spacing:3.4px;
+	font-size:36px;
+	font-style:normal;
+	padding:35px 0;
+}
+
+.section1 img{
+	display:block;
+	width:1200px;
+	height:450px;
+	margin:0 auto;
+}
+
+.section1 a{
+	font-weight:bold;
+	padding:10px 60px;
+	margin:calc(100% / 2 - 120px);
+	border:1px solid #4b4b4b;
+	
+}
+.section1 a:hover{
+	 background-color:#b9bbbd;
+	 border:none;
+ }
+ 
+/*-------------------------------section2---------------------------------------------------*/
+.section2{
+	margin-top:50px;
+	height:500px;
+}
+
+
+
+.section2 .escapart .escajpg{
+	float:left;
+	width:calc(100% / 4 - 10px);
+	box-shadow:0 2px 10px black;
+	position:relative;
+	left:-20px;
+	margin:5px;
+	height:480px;
+
+			
+}
+.section2 .escapart .escajpg img{
+	width:100%;
+
+}
+.section2 .escapart .text {
+	width:468px;
+	height:48px;
+	position:relative;
+	top:-80px;
+	left:25px;
+}		
+		
+.section2 .escapart:after{
+	clear:left;
+	content:'';
+	display:block;
+}		
+
+/*------------------------section3-------------------------*/
+.section3{
+	height:700px;
+	width:100;
+}
+.section3 .xt4{
+	margin:30px 0;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:400;
+	letter-spacing:3.4px;
+	font-size:36px;
+	font-style:normal;
+	padding:35px 0;
+}
+.section3 img{
+	display:block;
+	width:1200px;
+	height:450px;
+	margin:0 auto;
+	
+}
+.section3 a{
+	font-weight:bold;
+	padding:10px 60px;
+	margin:calc(100% / 2 - 120px);
+	border:1px solid #4b4b4b;
+	
+}
+.section3 a:hover{
+	 background-color:#b9bbbd;
+	 border:none;
+ }
+ 
+ /*---------------------------section4-------------------------------*/
+.section4 .xt4part{
+	height:480px;
+}
+
+.section4 .xt4part .xt4jpg{
+	float:left;
+	width:calc(100% / 4 - 10px);
+	box-shadow:0 2px 10px black;
+	position:relative;
+	margin:5px;
+	height:450px;
+	left:-20px;
+}
+.section4 .xt4part .xt4jpg img{
+	width:100%;
+}
+
+.section4 .xt4part:after{
+	clear:left;
+	content:'';
+	display:block;
+}		
+
+.section4 .xt4part .text {
+	width:468px;
+	height:48px;
+	position:relative;
+	top:-85px;
+	left:15px;
+}		
+
+/*-----------------------section5 ------------------------------*/
+
+.section5{
+	margin-bottom:30px;
+}
+
+.section5 .xt5{
+	margin:30px 0;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:400;
+	letter-spacing:3.4px;
+	font-size:36px;
+	font-style:normal;
+	padding:35px 0;
+}
+
+.section5 img{
+	display:block;
+	width:1200px;
+	height:450px;
+	margin:0 auto;
+}
+
+.section5 a{
+	font-weight:bold;
+	padding:10px 60px;
+	margin:calc(100% / 2 - 120px);
+	border:1px solid #4b4b4b;
+}
+
+.section5 a:hover{
+	 background-color:#b9bbbd;
+	 border:none;
+ }
+ 
+ /*-----------------------section6 ------------------------------*/
+
+ 
+.section6 .xt5part{
+	height:500px;
+}
+
+.section6 .xt5part .xt5jpg{
+	float:left;
+	width:calc(100% / 4 - 10px);
+	box-shadow:0 2px 10px black;
+	position:relative;
+	margin:5px;
+	height:480px;
+	left:-20px;
+}
+ 
+.section6 .xt5part .xt5jpg img{
+	width:100%;
+}
+.section6 .xt5part .text {
+	width:468px;
+	height:48px;
+	position:relative;
+	top:-85px;
+	left:15px;
+}		
+
+/*-----------------------section7 ------------------------------*/
+
+
+.section7{
+	margin-bottom:30px;
+}
+
+.section7 .xt6{
+	margin:30px 0;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:400;
+	letter-spacing:3.4px;
+	font-size:36px;
+	font-style:normal;
+	padding:35px 0;
+}
+
+.section7 img{
+	display:block;
+	width:1200px;
+	height:450px;
+	margin:0 auto;
+}
+
+.section7 a{
+	font-weight:bold;
+	padding:10px 60px;
+	margin:calc(100% / 2 - 120px);
+	border:1px solid #4b4b4b;
+}
+
+.section7 a:hover{
+	 background-color:#b9bbbd;
+	 border:none;
+ }
+ 
+/*-----------------------section8 ------------------------------*/
+ 
+.section8 .xt6part{
+	height:500px;
+}
+
+.section8 .xt6part .xt6jpg{
+	float:left;
+	width:calc(100% / 4 - 10px);
+	box-shadow:0 2px 10px black;
+	position:relative;
+	margin:5px;
+	height:480px;
+	left:-20px;
+}
+ 
+.section8 .xt6part .xt6jpg img{
+	width:100%;
+}
+.section8 .xt6part .text {
+	width:468px;
+	height:48px;
+	position:relative;
+	top:-85px;
+	left:15px;
+}		
+
+/*-------------------------------------------시승 신청 방문 견적------------------------------------------------------------*/
+
+.learn{
+	margin-top:50px;
+	width:100%;
+	
+}
+
+.learn .learn_box{
+	width:100%;
+}
+.learn ul li{
+	width:calc(100% / 3 - 45px);
+	float:left;
+	position:relative;
+	margin: 0 auto;
+	left:130px;
+}
+
+/*-------------------------------------------footer------------------------------------------------------------*/
+
+
+.site_bottom{
+	margin:600px 0 500px 0;
+	width:100%;
+}
+
+.site_bottom .site_bot{
+	margin:0 150px;
+	border-top:1px solid #b3b3b3;
+	padding-top:25px;
+}
+
+.site_bottom .site_bot .box{
+	float:left;
+	width:calc(100% / 7);
+	height:50px;
+}
+
+.site_bottom .site_bot .box ul{
+	padding-left:0;
+}
+.site_bottom .site_bot .box2 ul li{
+	font-weight:bold;
+}
+.site_bottom .site_bot .box ul li{
+	height:40px;
+	top:-40px;
+	position:relative;
+}
+
+.bottom {
+	width:97%;
+	margin:40px;
+	border-top:1px solid #b3b3b3;
+	border-bottom:1px solid #b3b3b3;
+
+}
+
+.site_bottom .site_bot .box ul li:hover{
+	cursor:pointer;
+}
+
+.bottom a{
+	margin: 0 10px;
+}
+
+.last{
+	width:1800px;
+	text-align:center;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+.last img{
+	width:37px;
+	height:37px;
+	margin:0 5px;
+	position:relative;
+}
+
+/* -----------------------------aside-----------------------------------------------*/
+aside .aside1{
+	width: 60px;
+	position: fixed;
+	right:0;
+	top:602px;
+	z-index: 10;
+	cursor: pointer;
+	background-color:#000000;
+	font-size:5px;
+}
+
+aside .btn{
+	display:block;
+	border-radius:10px;
+}
+
+aside .aside2{
+	width: 60px;
+	position: fixed;
+	right:0;
+	top:calc(100% / 2);
+	z-index: 10;
+	cursor: pointer;
+	background-color:#000000;
+	font-size:5px;
+}
+
+aside .aside3{
+	width: 60px;
+	position: fixed;
+	right:0;
+	top:695px;
+	z-index: 10;
+	cursor: pointer;
+	background-color:#000000;
+	font-size:5px;
+}
+
+section span{
+	margin-left:2258px;
+}
+
+	
